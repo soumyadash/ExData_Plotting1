@@ -1,4 +1,3 @@
-setwd("D:/2014/Learn/Exploratory Data Analysis/Week 1")
 #download data
 if (!file.exists("./data/household_power_consumption.txt")) {
   download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip", "./data/household_power_consumption.zip")
